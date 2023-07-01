@@ -8,7 +8,7 @@
   - Each contact has a connection history where each communication event is recorded as a date with notes
   - With the click of a button the next communication date is set to {today} + {cadence} (or can just be edited directly)
 - This all runs locally on my computer.
-- If there's any interest, I may eventually
+- If there's any interest, I'll see about expanding the functionality to allow others to use.
 
 <img src='assets/Screenshot%202023-07-01%20060103.png'>
 <img src='assets/Screenshot%202023-07-01%20060147.png'>
