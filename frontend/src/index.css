@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono&family=Zen+Antique&display=swap");
+/* font-family: 'Martian Mono', monospace;
+font-family: 'Zen Antique', serif; */
+
+:root {
+	--rich-black: #0d1321ff;
+	--tigers-eye: #bf6900ff;
+	--claret: #8b1e3fff;
+	--sea-green: #09814aff;
+	--eggshell: #f0ebd8ff;
+}
+body {
+	margin: 0;
+	background-color: var(--rich-black);
+	font-family: "Martian Mono", monospace, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+	color: var(--sea-green);
+}
+a:hover {
+	color: var(--tigers-eye);
+}
