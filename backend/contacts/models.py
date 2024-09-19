@@ -23,6 +23,7 @@ class Contact(models.Model):
     PHONECALL = "phonecall"
     DISCORD = "discord"
     LINKEDIN = "linkedin"
+    WHATSAPP = "whatsapp"
 
     CONTACT_METHODS = [
         (EMAIL, "Email"),
@@ -32,6 +33,7 @@ class Contact(models.Model):
         (PHONECALL, "Phonecall"),
         (DISCORD, "Discord"),
         (LINKEDIN, "LinkedIn"),
+        (WHATSAPP, "WhatsApp"),
     ]
 
     ACTIVE = "active"
@@ -44,7 +46,7 @@ class Contact(models.Model):
 
     name = models.CharField(max_length=30)
     next_connection = models.DateField(blank=True)
-    note = models.CharField(max_length=200, blank=True)
+    note = models.TextField(blank=True)
     cadence = models.CharField(
         max_length=20,
         choices=CADENCES,
@@ -67,7 +69,7 @@ class Contact(models.Model):
 
 class Connection(models.Model):
     date = models.DateField(blank=True)
-    note = models.CharField(max_length=200, blank=True)
+    note = models.TextField(blank=True)
     contact = models.ForeignKey(
         Contact, on_delete=models.CASCADE, related_name="connections"
     )
