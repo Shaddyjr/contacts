@@ -19,3 +19,11 @@
 - Integration with Google Calendar
 - User Login
 - Cloud-based Application
+
+## Changelog
+
+9/19/24
+
+- Made a mistake and had to revert to older version
+- Updated to include larger text fields for Connections and Contacts
+- Added WhatsApp as a Connection option
