@@ -20,6 +20,7 @@ export const CONTACT_METHODS = {
 	discord: "Discord",
 	linkedin: "LinkedIn",
 	whatsapp: "WhatsApp",
+	slack: "Slack",
 }
 
 export const convertToOptions = (OPTION_CONSTANT) => {

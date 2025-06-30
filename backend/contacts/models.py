@@ -24,6 +24,7 @@ class Contact(models.Model):
     DISCORD = "discord"
     LINKEDIN = "linkedin"
     WHATSAPP = "whatsapp"
+    SLACK = "slack"
 
     CONTACT_METHODS = [
         (EMAIL, "Email"),
@@ -34,6 +35,7 @@ class Contact(models.Model):
         (DISCORD, "Discord"),
         (LINKEDIN, "LinkedIn"),
         (WHATSAPP, "WhatsApp"),
+        (SLACK, "Slack"),
     ]
 
     ACTIVE = "active"
